@@ -3,6 +3,7 @@ package com.example.sfg_di.Controllers;
 import com.example.sfg_di.Services.GreetingService;
 import com.example.sfg_di.Services.PrimaryGreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Controller;
 
 @Controller
